@@ -21,7 +21,7 @@ ARG OS_PLATFORM=al2
 
 FROM public.ecr.aws/aleph0io/lambda/java:${JAVA_REVISION}-${OS_PLATFORM}
 
-COPY target/vss-lambda-training-0.0.1.jar "${LAMBDA_TASK_ROOT}/lib/"
+COPY target/aws-lambda-training-0.0.1.jar "${LAMBDA_TASK_ROOT}/lib/"
 
 # Use Refresh PROD Elastic logs 
 CMD [ "aws.traning.sgoyal.SimpleHandler::handleRequest" ]

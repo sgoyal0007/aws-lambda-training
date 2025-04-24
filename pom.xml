@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>aws-lambda-training</groupId>
-	<artifactId>vss-lambda-training</artifactId>
+	<artifactId>aws-lambda-training</artifactId>
 	<version>0.0.1</version>
 	<name>aws-lambda-training</name>
 	
